@@ -6,4 +6,6 @@ window.onload = function () {
 		menu_btn.classList.toggle('isActive');
 		mobile_menu.classList.toggle('isActive');
 	});
+
+	console.log("Iam here")
 }
