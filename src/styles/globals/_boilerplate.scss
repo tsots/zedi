@@ -1,0 +1,25 @@
+@use "../utils/" as u;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+
+    /* @include u.breakpoint(medium) {
+        background-color: yellow;
+    } */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
