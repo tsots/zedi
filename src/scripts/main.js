@@ -7,5 +7,5 @@ window.onload = function () {
 		mobile_menu.classList.toggle('isActive');
 	});
 
-	console.log("Iam Systema")
+	console.log("Iam Zedi")
 }
